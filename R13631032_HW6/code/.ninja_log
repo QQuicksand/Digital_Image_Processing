@@ -1,0 +1,16 @@
+# ninja log v5
+23	310	7549204026427425	hw6_autogen/timestamp	12d6ca3cccf9f538
+23	310	7549204026427425	hw6_autogen/mocs_compilation.cpp	12d6ca3cccf9f538
+23	310	7549204026427425	C:/Users/erica/Documents/hw6/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw6_autogen/timestamp	12d6ca3cccf9f538
+664	3544	7549194957805584	CMakeFiles/hw6.dir/main.cpp.obj	dd9318b35a43763f
+329	4404	7549204071493578	CMakeFiles/hw6.dir/mainwindow.cpp.obj	c6103d8cf4a49b12
+23	310	7549204026427425	C:/Users/erica/Documents/hw6/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw6_autogen/mocs_compilation.cpp	12d6ca3cccf9f538
+4404	4555	7549204072886206	hw6.exe	89e42a7784fa41cd
+657	3543	7549194957805584	CMakeFiles/hw6.dir/hw6_autogen/mocs_compilation.cpp.obj	1beeb60d319bcde3
+35	1076	7548476444088417	build.ninja	7409d7d259b552bc
+22	199	7549206056668510	hw6_autogen/timestamp	12d6ca3cccf9f538
+22	199	7549206056668510	hw6_autogen/mocs_compilation.cpp	12d6ca3cccf9f538
+22	199	7549206056668510	C:/Users/erica/Documents/hw6/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw6_autogen/timestamp	12d6ca3cccf9f538
+22	199	7549206056668510	C:/Users/erica/Documents/hw6/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw6_autogen/mocs_compilation.cpp	12d6ca3cccf9f538
+212	3935	7549206096598922	CMakeFiles/hw6.dir/mainwindow.cpp.obj	c6103d8cf4a49b12
+3936	4075	7549206097869693	hw6.exe	89e42a7784fa41cd

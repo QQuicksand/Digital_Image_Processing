@@ -1,0 +1,21 @@
+# ninja log v5
+11	527	7519334762457051	HW4_autogen/timestamp	8f7a467230c008b0
+11	527	7519334762457051	HW4_autogen/mocs_compilation.cpp	8f7a467230c008b0
+11	527	7519334762457051	C:/Users/erica/Documents/HW4/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/HW4_autogen/timestamp	8f7a467230c008b0
+11	527	7519334762457051	C:/Users/erica/Documents/HW4/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/HW4_autogen/mocs_compilation.cpp	8f7a467230c008b0
+531	2898	7519334786992774	CMakeFiles/HW4.dir/HW4_autogen/mocs_compilation.cpp.obj	a68135a517edff3c
+535	2948	7519334787508018	CMakeFiles/HW4.dir/main.cpp.obj	fa069d8dab1d004b
+540	4304	7519334801005653	CMakeFiles/HW4.dir/mainwindow.cpp.obj	eca870571a37f279
+4304	4445	7519334802329500	HW4.exe	fa50188319b01dce
+24	148	7519336839261776	HW4_autogen/timestamp	8f7a467230c008b0
+24	148	7519336839261776	HW4_autogen/mocs_compilation.cpp	8f7a467230c008b0
+24	148	7519336839261776	C:/Users/erica/Documents/HW4/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/HW4_autogen/timestamp	8f7a467230c008b0
+24	148	7519336839261776	C:/Users/erica/Documents/HW4/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/HW4_autogen/mocs_compilation.cpp	8f7a467230c008b0
+156	3106	7519336870859437	CMakeFiles/HW4.dir/mainwindow.cpp.obj	eca870571a37f279
+3106	3209	7519336871814880	HW4.exe	fa50188319b01dce
+10	178	7519342721750045	HW4_autogen/timestamp	8f7a467230c008b0
+10	178	7519342721750045	HW4_autogen/mocs_compilation.cpp	8f7a467230c008b0
+10	178	7519342721750045	C:/Users/erica/Documents/HW4/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/HW4_autogen/timestamp	8f7a467230c008b0
+10	178	7519342721750045	C:/Users/erica/Documents/HW4/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/HW4_autogen/mocs_compilation.cpp	8f7a467230c008b0
+186	3007	7519342752407060	CMakeFiles/HW4.dir/mainwindow.cpp.obj	eca870571a37f279
+10	116	7519343204524573	HW4.exe	fa50188319b01dce

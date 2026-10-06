@@ -1,0 +1,16 @@
+# ninja log v5
+26	185	7494976725817505	C:/Users/erica/Documents/untitled2/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/untitled2_autogen/mocs_compilation.cpp	9adb2d79df294eeb
+336	2019	7493551155781577	CMakeFiles/untitled2.dir/main.cpp.obj	5d7ed07cae824a26
+26	185	7494976725817505	untitled2_autogen/timestamp	9adb2d79df294eeb
+26	185	7494976725817505	untitled2_autogen/mocs_compilation.cpp	9adb2d79df294eeb
+26	185	7494976725817505	C:/Users/erica/Documents/untitled2/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/untitled2_autogen/timestamp	9adb2d79df294eeb
+10	680	7491892000111348	build.ninja	1b245853eabcfff4
+333	2028	7493551155848813	CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.obj	33d480d254d44594
+192	2592	7494976752500436	CMakeFiles/untitled2.dir/mainwindow.cpp.obj	6ba0442d29b50087
+2592	2723	7494976753604145	untitled2.exe	f370de3058cdea04
+9	162	7495521569969651	untitled2_autogen/timestamp	9adb2d79df294eeb
+9	162	7495521569969651	untitled2_autogen/mocs_compilation.cpp	9adb2d79df294eeb
+9	162	7495521569969651	C:/Users/erica/Documents/untitled2/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/untitled2_autogen/timestamp	9adb2d79df294eeb
+9	162	7495521569969651	C:/Users/erica/Documents/untitled2/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/untitled2_autogen/mocs_compilation.cpp	9adb2d79df294eeb
+168	2035	7495521788172155	CMakeFiles/untitled2.dir/mainwindow.cpp.obj	6ba0442d29b50087
+2036	2158	7495521789315383	untitled2.exe	f370de3058cdea04

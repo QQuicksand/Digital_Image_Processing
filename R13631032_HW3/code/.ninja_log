@@ -1,0 +1,21 @@
+# ninja log v5
+15	421	7507018687123832	hw3_autogen/timestamp	71bfa2994334ae78
+15	421	7507018687123832	hw3_autogen/mocs_compilation.cpp	71bfa2994334ae78
+15	421	7507018687123832	C:/Users/erica/Documents/hw3/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw3_autogen/timestamp	71bfa2994334ae78
+15	421	7507018687123832	C:/Users/erica/Documents/hw3/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw3_autogen/mocs_compilation.cpp	71bfa2994334ae78
+426	2315	7507018706771085	CMakeFiles/hw3.dir/hw3_autogen/mocs_compilation.cpp.obj	7898c9d8f3d6a0f8
+430	2347	7507018707104560	CMakeFiles/hw3.dir/main.cpp.obj	a76c4b58d21ca9a8
+434	4337	7507018726916709	CMakeFiles/hw3.dir/mainwindow.cpp.obj	ed4658fbd3cf7f39
+4350	4506	7507018728542578	hw3.exe	904ee289486f1d5a
+17	284	7507020660219919	hw3_autogen/timestamp	71bfa2994334ae78
+17	284	7507020660219919	hw3_autogen/mocs_compilation.cpp	71bfa2994334ae78
+17	284	7507020660219919	C:/Users/erica/Documents/hw3/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw3_autogen/timestamp	71bfa2994334ae78
+17	284	7507020660219919	C:/Users/erica/Documents/hw3/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw3_autogen/mocs_compilation.cpp	71bfa2994334ae78
+297	4050	7507020701634691	CMakeFiles/hw3.dir/mainwindow.cpp.obj	ed4658fbd3cf7f39
+4050	4170	7507020702763447	hw3.exe	904ee289486f1d5a
+24	277	7507021849377748	hw3_autogen/timestamp	71bfa2994334ae78
+24	277	7507021849377748	hw3_autogen/mocs_compilation.cpp	71bfa2994334ae78
+24	277	7507021849377748	C:/Users/erica/Documents/hw3/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw3_autogen/timestamp	71bfa2994334ae78
+24	277	7507021849377748	C:/Users/erica/Documents/hw3/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/hw3_autogen/mocs_compilation.cpp	71bfa2994334ae78
+291	4359	7507021894032444	CMakeFiles/hw3.dir/mainwindow.cpp.obj	ed4658fbd3cf7f39
+4359	4493	7507021895266144	hw3.exe	904ee289486f1d5a

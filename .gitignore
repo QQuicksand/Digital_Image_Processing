@@ -1,0 +1,21 @@
+# CMake / Qt Creator build output
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+Testing/
+*_autogen/
+.cmake/
+.qt/
+.qtc/
+.qtc_clangd/
+qtcsettings.cmake
+CMakeLists.txt.user*
+
+# Compiler artifacts
+*.obj
+*.ilk
+*.pdb

@@ -1,63 +1,65 @@
 # Digital Image Processing — C++ / Qt
 
-**Windows only**
+A collection of desktop image-processing tools written in C++17 with Qt (and OpenCV
+where needed). Each project is a self-contained GUI application with its source code,
+a prebuilt Windows executable and a write-up with result images.
 
-1. Download or clone this repository.
-2. Open the corresponding `.exe` file in each project folder.
-3. The Qt GUI will launch directly.
+| # | Project | Topics |
+|---|---|---|
+| 01 | [Gray-Level Operations & Histogram Analysis](01-gray-level-histogram/) | `.64` image decoding, histogram, add / subtract / multiply, averaging, gradient |
+| 02 | [Image Enhancement & Histogram Processing](02-image-enhancement/) | grayscale conversion, thresholding, resampling, brightness / contrast, histogram equalization |
+| 03 | [Spatial Filtering & Edge Detection](03-spatial-filtering-edge-detection/) | smoothing, sharpening, median, Sobel, Marr-Hildreth (LoG), local enhancement |
+| 04 | [Frequency-Domain Filtering & Image Restoration](04-frequency-domain-restoration/) | FFT, ideal / Butterworth / Gaussian filters, homomorphic filtering, inverse & Wiener filters |
+| 05 | [Color Processing & K-means Segmentation](05-color-processing-segmentation/) | RGB / CMY / HSI / XYZ / L\*a\*b\* / YUV, pseudo-color, k-means segmentation |
+| 06 | [Geometric Transforms, Wavelet Fusion & SLIC Superpixels](06-geometric-wavelet-superpixel/) | fisheye, kaleidoscope, wavy, spiral, ripple, DWT fusion, SLIC |
+| 07 | [HoneyBee Tracker](07-honeybee-tracker/) | bee detection & tracking in video (demo) |
 
-## Projects
+## Preview
 
-### HW1 — Gray-Level Operations and Histogram Analysis
+| Histogram | Enhancement | Edge detection |
+|:--:|:--:|:--:|
+| ![](01-gray-level-histogram/docs/images/histogram-lisa.png) | ![](02-image-enhancement/docs/images/histogram-equalization.png) | ![](03-spatial-filtering-edge-detection/docs/images/sobel.jpg) |
+| **Frequency domain** | **Color segmentation** | **Geometric transforms** |
+| ![](04-frequency-domain-restoration/docs/images/fft-ui.jpg) | ![](05-color-processing-segmentation/docs/images/rgb-k50.png) | ![](06-geometric-wavelet-superpixel/docs/images/spiral.png) |
 
-- Gray-level addition, subtraction, and multiplication
-- Image averaging
-- Gradient image generation
-- Histogram calculation and visualization
+## Quick Start (Windows)
 
-### HW2 — Image Enhancement and Histogram Processing
+1. Clone the repository (Git LFS is used for the bundled `.dll` files):
 
-- Thresholding
-- Grayscale conversion
-- Brightness and contrast adjustment
-- Image resizing
-- Histogram equalization
+   ```bash
+   git lfs install
+   git clone https://github.com/QQuicksand/Digital_Image_Processing.git
+   ```
 
-### HW3 — Spatial Filtering and Edge Detection
+2. Open a project's `bin/` folder and run its `.exe`. The Qt runtime and sample images
+   are bundled, so the GUI starts directly.
 
-- Smoothing filters
-- Sharpening filters
-- Order-statistics filtering
-- Sobel edge detection
-- Marr-Hildreth edge detection
-- Local enhancement
+## Project Layout
 
-### HW4 — Frequency-Domain Processing and Image Restoration
+```text
+NN-project-name/
+├── README.md      write-up with algorithms and result images
+├── src/           C++ / Qt source and CMakeLists.txt
+├── bin/           prebuilt Windows executable, runtime DLLs and sample images
+└── docs/images/   figures used in the write-up
+```
 
-- Fourier transform
-- Ideal, Butterworth, and Gaussian frequency filters
-- Homomorphic filtering
-- Image restoration
+## Building from Source
 
-### HW5 — Color Processing and Image Segmentation
+Each `src/` folder is a standalone CMake project:
 
-- RGB, CMY, HSI, XYZ, and YUV color spaces
-- Pseudo-color mapping
-- K-means image segmentation
-- Segmentation in different color spaces
+```bash
+cmake -S <project>/src -B build -G Ninja -DCMAKE_PREFIX_PATH=<path-to-Qt>
+cmake --build build
+```
 
-### HW6 — Geometric Processing, Wavelets, and Superpixels
-
-- Fisheye transformation
-- Kaleidoscope transformation
-- Wavy transformation
-- Spiral transformation
-- Ripple transformation
-- Discrete Wavelet Transform (DWT)
-- SLIC superpixel segmentation
+Projects 02, 04, 05 and 06 also need OpenCV; point `OpenCV_DIR` in their
+`CMakeLists.txt` to your OpenCV build. Sample images are loaded relative to the working
+directory, so copy them from `bin/` next to the built executable.
 
 ## Technologies
+
 - C++17
-- Qt
-- CMake
+- Qt 5 / Qt 6 (Widgets)
 - OpenCV
+- CMake / Ninja

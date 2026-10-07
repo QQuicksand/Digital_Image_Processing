@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Processing Lab</title>
+  <meta name="description" content="Interactive digital image processing tools written in C++17 and compiled to WebAssembly.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <h1>Image Processing Lab</h1>
+        <p class="tagline">C++17 core compiled to WebAssembly &middot; runs entirely in your browser</p>
+      </div>
+    </div>
+    <a class="repo-link" href="https://github.com/QQuicksand/Digital_Image_Processing/tree/web-app">Source on GitHub</a>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" aria-label="Projects">
+      <a href="#levels"><span class="num">01</span>Gray Levels &amp; Histogram</a>
+      <a href="#enhance"><span class="num">02</span>Enhancement</a>
+      <a href="#spatial"><span class="num">03</span>Spatial Filtering</a>
+      <a href="#frequency"><span class="num">04</span>Frequency Domain</a>
+      <a href="#color"><span class="num">05</span>Color &amp; K-means</a>
+      <a href="#geometry"><span class="num">06</span>Geometry, DWT &amp; SLIC</a>
+      <a href="#honeybee"><span class="num">07</span>HoneyBee Tracker</a>
+    </nav>
+
+    <main id="main">
+      <div id="loading" class="loading">Loading WebAssembly module&hellip;</div>
+
+      <section id="levels" class="project" hidden>
+        <h2>Gray-Level Operations &amp; Histogram Analysis</h2>
+        <p class="lede">32-level <code>.64</code> images: histogram, constant arithmetic with clamping, averaging and the horizontal difference image <code>g(x,y) = f(x,y) &minus; f(x&minus;1,y)</code>.</p>
+      </section>
+
+      <section id="enhance" class="project" hidden>
+        <h2>Image Enhancement &amp; Histogram Processing</h2>
+        <p class="lede">Grayscale conversion, thresholding, resampling, gray-level reduction, brightness / contrast and histogram equalization.</p>
+      </section>
+
+      <section id="spatial" class="project" hidden>
+        <h2>Spatial Filtering &amp; Edge Detection</h2>
+        <p class="lede">Mask-based smoothing, sharpening, median and Sobel filters, Marr-Hildreth (LoG) edges and statistics-based local enhancement.</p>
+      </section>
+
+      <section id="frequency" class="project" hidden>
+        <h2>Frequency-Domain Filtering &amp; Restoration</h2>
+        <p class="lede">FFT spectrum and phase, ideal / Butterworth / Gaussian filters, homomorphic filtering and motion-blur restoration.</p>
+      </section>
+
+      <section id="color" class="project" hidden>
+        <h2>Color Processing &amp; K-means Segmentation</h2>
+        <p class="lede">Color model conversion, pseudo-color with its color bar, and k-means color clustering in RGB, HSI and L*a*b*.</p>
+      </section>
+
+      <section id="geometry" class="project" hidden>
+        <h2>Geometric Transforms, Wavelet Fusion &amp; SLIC</h2>
+        <p class="lede">Polar and sinusoidal warps, Haar DWT image fusion and SLIC superpixel segmentation.</p>
+      </section>
+
+      <section id="honeybee" class="project" hidden>
+        <h2>HoneyBee Tracker</h2>
+        <p class="lede">A desktop application that detects and tracks honeybees in video, drawing a labeled bounding box and motion trail for each bee. Demo recording:</p>
+        <div class="panel">
+          <video class="demo" src="samples/honeybee-demo.mp4" controls muted playsinline loop preload="metadata"></video>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

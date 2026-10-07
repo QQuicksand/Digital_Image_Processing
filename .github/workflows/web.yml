@@ -1,0 +1,57 @@
+name: Web app
+
+on:
+  push:
+    branches: [web-app]
+  pull_request:
+    branches: [web-app]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: web-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Native core tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and test
+        run: |
+          cmake -S . -B build/native -DCMAKE_BUILD_TYPE=Release
+          cmake --build build/native
+          ctest --test-dir build/native --output-on-failure
+
+  build:
+    name: Build WebAssembly site
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mymindstorm/setup-emsdk@v14
+      - name: Compile C++ core to WebAssembly
+        run: |
+          emcmake cmake -S . -B build/wasm -DCMAKE_BUILD_TYPE=Release
+          cmake --build build/wasm
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/web-app'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

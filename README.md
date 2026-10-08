@@ -12,7 +12,7 @@ a prebuilt Windows executable and a write-up with result images.
 | Project 4 | [Frequency-Domain Filtering & Image Restoration](Project4-Frequency-Domain-Restoration/) | FFT, ideal / Butterworth / Gaussian filters, homomorphic filtering, inverse & Wiener filters |
 | Project 5 | [Color Processing & K-means Segmentation](Project5-Color-Processing-Segmentation/) | RGB / CMY / HSI / XYZ / L\*a\*b\* / YUV, pseudo-color, k-means segmentation |
 | Project 6 | [Geometric Transforms, Wavelet Fusion & SLIC Superpixels](Project6-Geometric-Wavelet-Superpixel/) | fisheye, kaleidoscope, wavy, spiral, ripple, DWT fusion, SLIC |
-| Project 7 | [HoneyBee Tracker](Project7-HoneyBee-Tracker/) | bee detection & tracking in video (demo) |
+| Term Project | [HoneyBee Tracker](TermProject-HoneyBee-Tracker/) | bee detection & tracking in video (demo) |
 
 ## Preview
 
@@ -43,6 +43,8 @@ ProjectN-Subject/
 ├── bin/           prebuilt Windows executable, runtime DLLs and sample images
 └── docs/images/   figures used in the write-up
 ```
+
+`TermProject-HoneyBee-Tracker/` holds the term project's write-up and demo recording.
 
 ## Building from Source
 

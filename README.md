@@ -1,8 +1,11 @@
 # Digital Image Processing — C++ / Qt
 
-A collection of desktop image-processing tools written in C++17 with Qt (and OpenCV
-where needed). Each project is a self-contained GUI application with its source code,
+Image processing tools written in C++17 with Qt (and OpenCV
+
+Each project is a GUI application with its source code,
 a prebuilt Windows executable and a write-up with result images.
+
+(View branch "web-app" to see a preview on a website)
 
 | # | Project | Topics |
 |---|---|---|
@@ -55,9 +58,9 @@ cmake -S <project>/src -B build -G Ninja -DCMAKE_PREFIX_PATH=<path-to-Qt>
 cmake --build build
 ```
 
-Projects 02, 04, 05 and 06 also need OpenCV; point `OpenCV_DIR` in their
-`CMakeLists.txt` to your OpenCV build. Sample images are loaded relative to the working
-directory, so copy them from `bin/` next to the built executable.
+Projects 02, 04, 05 and 06 also need OpenCV; 
+point `OpenCV_DIR` in their`CMakeLists.txt` to your OpenCV build. 
+Sample images are loaded relative to the working directory, so copy them from `bin/` next to the built executable.
 
 ## Technologies
 

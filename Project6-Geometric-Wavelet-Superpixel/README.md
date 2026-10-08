@@ -1,4 +1,4 @@
-# Geometric Transforms, Wavelet Fusion & SLIC Superpixels
+# Project 6 — Geometric Transforms, Wavelet Fusion & SLIC Superpixels
 
 A Qt desktop tool with three parts: creative geometric warps (fisheye, kaleidoscope,
 wavy, spiral, ripple), image fusion with the discrete wavelet transform, and

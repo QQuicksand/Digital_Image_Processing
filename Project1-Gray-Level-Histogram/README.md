@@ -1,4 +1,4 @@
-# Gray-Level Operations & Histogram Analysis
+# Project 1 — Gray-Level Operations & Histogram Analysis
 
 A Qt desktop tool that decodes 32-level `.64` text images, renders them, and shows how
 pixel-wise arithmetic changes the image and its histogram, live, from a slider.

@@ -6,21 +6,21 @@ a prebuilt Windows executable and a write-up with result images.
 
 | # | Project | Topics |
 |---|---|---|
-| 01 | [Gray-Level Operations & Histogram Analysis](01-gray-level-histogram/) | `.64` image decoding, histogram, add / subtract / multiply, averaging, gradient |
-| 02 | [Image Enhancement & Histogram Processing](02-image-enhancement/) | grayscale conversion, thresholding, resampling, brightness / contrast, histogram equalization |
-| 03 | [Spatial Filtering & Edge Detection](03-spatial-filtering-edge-detection/) | smoothing, sharpening, median, Sobel, Marr-Hildreth (LoG), local enhancement |
-| 04 | [Frequency-Domain Filtering & Image Restoration](04-frequency-domain-restoration/) | FFT, ideal / Butterworth / Gaussian filters, homomorphic filtering, inverse & Wiener filters |
-| 05 | [Color Processing & K-means Segmentation](05-color-processing-segmentation/) | RGB / CMY / HSI / XYZ / L\*a\*b\* / YUV, pseudo-color, k-means segmentation |
-| 06 | [Geometric Transforms, Wavelet Fusion & SLIC Superpixels](06-geometric-wavelet-superpixel/) | fisheye, kaleidoscope, wavy, spiral, ripple, DWT fusion, SLIC |
-| 07 | [HoneyBee Tracker](07-honeybee-tracker/) | bee detection & tracking in video (demo) |
+| Project 1 | [Gray-Level Operations & Histogram Analysis](Project1-Gray-Level-Histogram/) | `.64` image decoding, histogram, add / subtract / multiply, averaging, gradient |
+| Project 2 | [Image Enhancement & Histogram Processing](Project2-Image-Enhancement/) | grayscale conversion, thresholding, resampling, brightness / contrast, histogram equalization |
+| Project 3 | [Spatial Filtering & Edge Detection](Project3-Spatial-Filtering-Edge-Detection/) | smoothing, sharpening, median, Sobel, Marr-Hildreth (LoG), local enhancement |
+| Project 4 | [Frequency-Domain Filtering & Image Restoration](Project4-Frequency-Domain-Restoration/) | FFT, ideal / Butterworth / Gaussian filters, homomorphic filtering, inverse & Wiener filters |
+| Project 5 | [Color Processing & K-means Segmentation](Project5-Color-Processing-Segmentation/) | RGB / CMY / HSI / XYZ / L\*a\*b\* / YUV, pseudo-color, k-means segmentation |
+| Project 6 | [Geometric Transforms, Wavelet Fusion & SLIC Superpixels](Project6-Geometric-Wavelet-Superpixel/) | fisheye, kaleidoscope, wavy, spiral, ripple, DWT fusion, SLIC |
+| Project 7 | [HoneyBee Tracker](Project7-HoneyBee-Tracker/) | bee detection & tracking in video (demo) |
 
 ## Preview
 
 | Histogram | Enhancement | Edge detection |
 |:--:|:--:|:--:|
-| ![](01-gray-level-histogram/docs/images/histogram-lisa.png) | ![](02-image-enhancement/docs/images/histogram-equalization.png) | ![](03-spatial-filtering-edge-detection/docs/images/sobel.jpg) |
+| ![](Project1-Gray-Level-Histogram/docs/images/histogram-lisa.png) | ![](Project2-Image-Enhancement/docs/images/histogram-equalization.png) | ![](Project3-Spatial-Filtering-Edge-Detection/docs/images/sobel.jpg) |
 | **Frequency domain** | **Color segmentation** | **Geometric transforms** |
-| ![](04-frequency-domain-restoration/docs/images/fft-ui.jpg) | ![](05-color-processing-segmentation/docs/images/rgb-k50.png) | ![](06-geometric-wavelet-superpixel/docs/images/spiral.png) |
+| ![](Project4-Frequency-Domain-Restoration/docs/images/fft-ui.jpg) | ![](Project5-Color-Processing-Segmentation/docs/images/rgb-k50.png) | ![](Project6-Geometric-Wavelet-Superpixel/docs/images/spiral.png) |
 
 ## Quick Start (Windows)
 
@@ -37,7 +37,7 @@ a prebuilt Windows executable and a write-up with result images.
 ## Project Layout
 
 ```text
-NN-project-name/
+ProjectN-Subject/
 ├── README.md      write-up with algorithms and result images
 ├── src/           C++ / Qt source and CMakeLists.txt
 ├── bin/           prebuilt Windows executable, runtime DLLs and sample images

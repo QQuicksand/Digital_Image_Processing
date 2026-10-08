@@ -1,4 +1,4 @@
-# Color Processing & K-means Segmentation
+# Project 5 — Color Processing & K-means Segmentation
 
 A Qt desktop tool for color image processing: conversion between color models,
 pseudo-color mapping with a color bar, and image segmentation by k-means color

@@ -1,4 +1,4 @@
-# HoneyBee Tracker
+# Project 7 — HoneyBee Tracker
 
 A desktop application that detects and tracks honeybees in video. A video is loaded
 through the GUI, each frame is processed, and every detected bee is drawn with a

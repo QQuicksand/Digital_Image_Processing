@@ -1,4 +1,4 @@
-# Frequency-Domain Filtering & Image Restoration
+# Project 4 — Frequency-Domain Filtering & Image Restoration
 
 A Qt desktop tool for frequency-domain processing: FFT spectrum and phase display,
 ideal / Butterworth / Gaussian low- and high-pass filters, homomorphic filtering, and

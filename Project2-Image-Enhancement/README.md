@@ -1,4 +1,4 @@
-# Image Enhancement & Histogram Processing
+# Project 2 — Image Enhancement & Histogram Processing
 
 A Qt desktop tool for reading a color image and applying basic point operations:
 grayscale conversion, thresholding, resampling, gray-level quantization,

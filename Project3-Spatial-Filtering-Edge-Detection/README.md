@@ -1,4 +1,4 @@
-# Spatial Filtering & Edge Detection
+# Project 3 — Spatial Filtering & Edge Detection
 
 A Qt desktop tool for mask-based spatial filtering: smoothing, sharpening, median
 filtering, Sobel edges, Marr-Hildreth (Laplacian of Gaussian) edge detection, and
